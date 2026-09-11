@@ -42,14 +42,21 @@ export function Header() {
           <Logo />
         </Link>
 
-        <nav className="mx-auto hidden lg:block" aria-label={t('chrome.mainNav')}>
-          <ul className="flex items-center gap-1">
+        {/*
+          ⚠️ عتبة الظهور xl لا lg عمداً. عشرة روابط رئيسية (بعضها كلمتان:
+          «الأرقام القياسية»، «تحليل تقني»، «تاريخ الرياضة») لا تتّسع سطراً
+          واحداً بين 1024 و1280 بكسل مهما ضُغطت الحشوة — فكانت تنكسر إلى
+          سطرين متفاوتَي الطول، فيبدو الهيدر بأكمله «معفّساً» غير محاذًى.
+          القائمة المنسدلة النظيفة أفضل من صفّ مكتظّ يبدو مكسوراً.
+        */}
+        <nav className="mx-auto hidden xl:block" aria-label={t('chrome.mainNav')}>
+          <ul className="flex items-center gap-0.5">
             {NAV_LINKS.map((link) => (
               <li key={link.href}>
                 <Link
                   href={link.href}
                   aria-current={isActive(link.href) ? 'page' : undefined}
-                  className={`relative rounded-lg px-3 py-2 text-[0.9rem] font-medium transition-colors ${
+                  className={`relative rounded-lg px-2.5 py-2 text-[0.85rem] font-medium whitespace-nowrap transition-colors ${
                     isActive(link.href)
                       ? 'text-fg'
                       : 'text-muted hover:text-fg'
@@ -57,7 +64,7 @@ export function Header() {
                 >
                   {t(link.key)}
                   {isActive(link.href) && (
-                    <span className="absolute inset-x-3 -bottom-px h-0.5 rounded-full bg-red" />
+                    <span className="absolute inset-x-2.5 -bottom-px h-0.5 rounded-full bg-red" />
                   )}
                 </Link>
               </li>
@@ -65,7 +72,7 @@ export function Header() {
           </ul>
         </nav>
 
-        <div className="ms-auto flex items-center gap-2 lg:ms-0">
+        <div className="ms-auto flex items-center gap-2 xl:ms-0">
           <SiteSearch />
           <ThemeToggle />
           <button
@@ -74,7 +81,7 @@ export function Header() {
             aria-expanded={open}
             aria-controls="mobile-nav"
             aria-label={t('chrome.menu')}
-            className="grid size-9 place-items-center rounded-lg border border-line text-muted transition-colors hover:text-fg lg:hidden"
+            className="grid size-9 place-items-center rounded-lg border border-line text-muted transition-colors hover:text-fg xl:hidden"
           >
             <svg viewBox="0 0 24 24" className="size-[18px]" fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round">
               {open ? <path d="M6 6l12 12M18 6L6 18" /> : <path d="M4 7h16M4 12h16M4 17h16" />}
@@ -90,7 +97,7 @@ export function Header() {
         id="mobile-nav"
         aria-label={t('chrome.mobileNav')}
         hidden={!open}
-        className="border-b border-line bg-bg-elev lg:hidden"
+        className="border-b border-line bg-bg-elev xl:hidden"
       >
         <ul className="mx-auto max-w-7xl px-4 py-2 sm:px-6">
           {NAV_LINKS.map((link) => (
