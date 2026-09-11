@@ -8,6 +8,7 @@ import { ImageCreditLine } from '@/components/news/ImageCreditLine';
 import { Flag } from '@/components/site/Flag';
 import { SectionHeading } from '@/components/site/SectionHeading';
 import driverCards from '@/data/driver-cards.json';
+import { driverRecordBadges } from '@/lib/data/driver-records';
 import { getDriverCareer } from '@/lib/data/history';
 import type { ImageCredit } from '@/lib/types';
 
@@ -64,6 +65,13 @@ export default async function DriverPage({ params }: { params: Promise<{ id: str
     career;
 
   const card = (driverCards as Card[]).find((entry) => entry.id === id) ?? null;
+
+  /**
+   * ⚠️ من القرص لا من `career` — الأرقام القياسية مبنية بمزامنة منفصلة
+   * (`npm run sync:history`) تقرأ نتيجة كل سباق منذ 1950 مرّة واحدة، فلا
+   * تحتاج هذه الصفحة نداء شبكة إضافياً لتعرف أن السائق يتصدّر رقماً ما.
+   */
+  const recordBadges = driverRecordBadges(id);
 
   const facts = [
     { label: 'سباقات', value: results.length },
@@ -141,6 +149,22 @@ export default async function DriverPage({ params }: { params: Promise<{ id: str
                 </span>
                 <span className="tnum text-muted">{titles.join(' · ')}</span>
               </p>
+            )}
+
+            {recordBadges.length > 0 && (
+              <ul className="mt-3 flex flex-wrap gap-2">
+                {recordBadges.map((badge) => (
+                  <li key={badge.label}>
+                    <Link
+                      href={badge.href}
+                      className="inline-flex items-center gap-1.5 rounded-xl border border-line bg-bg/50 px-3 py-1.5 text-xs font-medium text-muted transition-colors hover:border-red hover:text-red"
+                    >
+                      <span aria-hidden="true">🏆</span>
+                      {badge.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
             )}
 
             {facts.length > 0 && (

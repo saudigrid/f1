@@ -20,6 +20,7 @@ export const NAV_LINKS: readonly NavLink[] = [
   { href: '/circuits', key: 'nav.circuits' },
   { href: '/drivers', key: 'nav.drivers' },
   { href: '/standings', key: 'nav.standings' },
+  { href: '/records', key: 'nav.records' },
   { href: '/teams', key: 'nav.teams' },
   { href: '/technical', key: 'nav.technical' },
   { href: '/eras', key: 'nav.eras' },

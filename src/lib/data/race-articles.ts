@@ -28,3 +28,16 @@ export function raceArticle(season: number | string, round: number | string): Ra
 export function raceArticleCount(): number {
   return Object.keys(articles).length;
 }
+
+/**
+ * اسم السباق بالعربية من عنوان مقالته، وإلّا الاسم الإنجليزي المزحوف.
+ *
+ * ⚠️ يُقصّ من العنوان: بادئة «سباق» وسنةٌ في آخره. عنوان المقالة يحمل السنة
+ * («جائزة موناكو الكبرى 1960») وأغلب المواضع التي تستدعي هذه الدالّة تعرض
+ * الموسم بجانبها أصلاً، فتركها يعني تكرارها مرّتين في سطر واحد.
+ */
+export function raceNameAr(stamp: { season: number; round: number; race: string }): string {
+  const title = raceArticle(stamp.season, stamp.round)?.title;
+  if (!title) return stamp.race;
+  return title.replace(/^سباق\s+/, '').replace(/\s+\d{4}$/, '').trim() || stamp.race;
+}

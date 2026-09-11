@@ -75,6 +75,11 @@ const CHECKS: Check[] = [
   },
   { path: '/api/telemetry?session=0&driver=0&from=x', name: 'تيليمتري بوسائط خاطئة', mustNotSucceed: true },
   { path: '/eras', name: 'تاريخ الرياضة', expect: ['تاريخ الفورمولا 1', 'التوربو'] },
+  {
+    path: '/records',
+    name: 'الأرقام القياسية',
+    expect: ['الأرقام القياسية', 'الأكثر انتصاراً', 'أصغر فائز بسباق'],
+  },
 
   // ── الصفحات الثانوية ─────────────────────────
   { path: '/about', name: 'عن الموقع' },

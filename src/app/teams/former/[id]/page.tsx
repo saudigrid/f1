@@ -7,25 +7,8 @@ import { PageHero } from '@/components/hero/PageHero';
 import { Flag } from '@/components/site/Flag';
 import { SectionHeading } from '@/components/site/SectionHeading';
 import { TeamCrest } from '@/components/teams/TeamCrest';
-import { raceArticle } from '@/lib/data/race-articles';
+import { raceNameAr } from '@/lib/data/race-articles';
 import { listFormerTeams, teamProfile, type TeamProfile } from '@/lib/data/teams';
-
-/**
- * اسم السباق بالعربية.
- *
- * `team-history.json` يخزّن اسم Ergast الإنجليزي («Monaco Grand Prix»)، لكنه
- * يخزّن معه الموسم والجولة — وهما مفتاح `race-articles.json` الذي فيه العنوان
- * العربي. فالترجمة هنا **بحث لا تخمين**.
- *
- * ⚠️ يُقصّ من العنوان: بادئة «سباق» وسنةٌ في آخره. عنوان المقالة يحمل السنة
- * («جائزة موناكو الكبرى 1960») ونحن نعرض الموسم بجانبه أصلاً، فتركها يعني
- * تكرارها مرّتين في سطر واحد.
- */
-function raceNameAr(stamp: { season: number; round: number; race: string }): string {
-  const title = raceArticle(stamp.season, stamp.round)?.title;
-  if (!title) return stamp.race;
-  return title.replace(/^سباق\s+/, '').replace(/\s+\d{4}$/, '').trim() || stamp.race;
-}
 
 export const dynamic = 'force-static';
 
