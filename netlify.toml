@@ -1,5 +1,11 @@
 [build]
   command = "npm run build"
+  # ⚠️ لازم صراحة. بلا هذا السطر يحسب Next.js Runtime v5 مجلد النشر
+  # مساوياً لمجلد الأساس (كلاهما الجذر) ويرفض البناء بخطأ:
+  # "Your publish directory cannot be the same as the base directory".
+  # القيمة نفسها لا تُستخدَم حرفياً — الملحق يعيد توجيه الناتج فعلياً إلى
+  # .netlify/، لكن وجود قيمة مختلفة عن الأساس يكفي لتفادي الحسبة الخاطئة.
+  publish = ".next"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
