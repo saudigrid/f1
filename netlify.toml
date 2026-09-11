@@ -1,0 +1,10 @@
+[build]
+  command = "npm run build"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+# ⚠️ لا استضافة هنا لـ /api/cron/ingest — نتليفاي ليس فيرسل ولا يعرف
+# vercel.json. الجدولة تنتقل إلى خدمة كرون خارجية (راجع README) تستدعي
+# نفس الرابط بترويسة Authorization نفسها؛ المسار نفسه لا يتغيّر ولا يهتمّ
+# من يناديه.

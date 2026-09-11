@@ -22,7 +22,7 @@ npm run dev
 | `GOOGLE_API_KEY` **أو** `ANTHROPIC_API_KEY` | لا يعمل خط الأتمتة | الوكيلان يعملان |
 | `NEXT_PUBLIC_SUPABASE_URL` + `SUPABASE_SERVICE_ROLE_KEY` | القراءة من `src/data/*.json` | القراءة والكتابة في Supabase |
 | `ADMIN_PASSWORD` | `/admin` مغلقة | لوحة المراجعة تعمل |
-| `CRON_SECRET` | مسار الأتمتة يرفض كل الطلبات | Vercel Cron يشغّله |
+| `CRON_SECRET` | مسار الأتمتة يرفض كل الطلبات | جدولة الكرون (Vercel أو خارجية) تشغّله — راجع [`CRON.md`](./CRON.md) |
 | `NEXT_PUBLIC_ADSENSE_CLIENT_ID` | مواضع إعلانية فارغة | AdSense يعمل |
 
 ---
@@ -108,8 +108,10 @@ npm run pipeline          # التشغيلة الكاملة
 `npm run check` يكتشف مشكلة مفتاح أو نموذج في ثوانٍ، بدل أن تكتشفها بعد اثنتي
 عشرة محاولة فاشلة داخل التشغيلة الكاملة.
 
-على Vercel يشتغل تلقائياً **مرتين يومياً** عبر `vercel.json`. المسار محمي بـ
-`CRON_SECRET` حتى لا يستطيع زائر إشعال فاتورة API. تفاصيل الجدولة في [`CRON.md`](./CRON.md).
+يشتغل تلقائياً **مرتين يومياً** — على Vercel عبر `vercel.json` مباشرة، وعلى
+أي منصّة أخرى عبر خدمة كرون خارجية تستدعي `/api/cron/ingest`. المسار محمي بـ
+`CRON_SECRET` حتى لا يستطيع زائر إشعال فاتورة API. تفاصيل الجدولة والمنصّات
+في [`CRON.md`](./CRON.md).
 
 ### التكلفة والحصة
 
