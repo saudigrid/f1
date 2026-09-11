@@ -1,0 +1,186 @@
+[
+  {
+    "id": "antonelli",
+    "name": "كيمي أنتونيلي",
+    "nameEn": "Andrea Kimi Antonelli",
+    "number": 12,
+    "teamId": "mercedes",
+    "countryCode": "IT"
+  },
+  {
+    "id": "russell",
+    "name": "جورج راسل",
+    "nameEn": "George Russell",
+    "number": 63,
+    "teamId": "mercedes",
+    "countryCode": "GB"
+  },
+  {
+    "id": "hamilton",
+    "name": "لويس هاميلتون",
+    "nameEn": "Lewis Hamilton",
+    "number": 44,
+    "teamId": "ferrari",
+    "countryCode": "GB"
+  },
+  {
+    "id": "norris",
+    "name": "لاندو نوريس",
+    "nameEn": "Lando Norris",
+    "number": 1,
+    "teamId": "mclaren",
+    "countryCode": "GB"
+  },
+  {
+    "id": "leclerc",
+    "name": "شارل لوكلير",
+    "nameEn": "Charles Leclerc",
+    "number": 16,
+    "teamId": "ferrari",
+    "countryCode": "MC"
+  },
+  {
+    "id": "max_verstappen",
+    "name": "ماكس فيرستابن",
+    "nameEn": "Max Verstappen",
+    "number": 3,
+    "teamId": "red_bull",
+    "countryCode": "NL"
+  },
+  {
+    "id": "piastri",
+    "name": "أوسكار بياستري",
+    "nameEn": "Oscar Piastri",
+    "number": 81,
+    "teamId": "mclaren",
+    "countryCode": "AU"
+  },
+  {
+    "id": "hadjar",
+    "name": "إيزاك حجار",
+    "nameEn": "Isack Hadjar",
+    "number": 6,
+    "teamId": "red_bull",
+    "countryCode": "FR"
+  },
+  {
+    "id": "lawson",
+    "name": "ليام لوسون",
+    "nameEn": "Liam Lawson",
+    "number": 30,
+    "teamId": "rb",
+    "countryCode": "NZ"
+  },
+  {
+    "id": "gasly",
+    "name": "بيير غاسلي",
+    "nameEn": "Pierre Gasly",
+    "number": 10,
+    "teamId": "alpine",
+    "countryCode": "FR"
+  },
+  {
+    "id": "arvid_lindblad",
+    "name": "أرفيد ليندبلاد",
+    "nameEn": "Arvid Lindblad",
+    "number": 41,
+    "teamId": "rb",
+    "countryCode": "GB"
+  },
+  {
+    "id": "colapinto",
+    "name": "فرانكو كولابينتو",
+    "nameEn": "Franco Colapinto",
+    "number": 43,
+    "teamId": "alpine",
+    "countryCode": "AR"
+  },
+  {
+    "id": "bearman",
+    "name": "أوليفر بيرمان",
+    "nameEn": "Oliver Bearman",
+    "number": 87,
+    "teamId": "haas",
+    "countryCode": "GB"
+  },
+  {
+    "id": "bortoleto",
+    "name": "غابرييل بورتوليتو",
+    "nameEn": "Gabriel Bortoleto",
+    "number": 5,
+    "teamId": "audi",
+    "countryCode": "BR"
+  },
+  {
+    "id": "hulkenberg",
+    "name": "نيكو هولكنبرغ",
+    "nameEn": "Nico Hülkenberg",
+    "number": 27,
+    "teamId": "audi",
+    "countryCode": "DE"
+  },
+  {
+    "id": "sainz",
+    "name": "كارلوس ساينز",
+    "nameEn": "Carlos Sainz",
+    "number": 55,
+    "teamId": "williams",
+    "countryCode": "ES"
+  },
+  {
+    "id": "albon",
+    "name": "أليكس ألبون",
+    "nameEn": "Alexander Albon",
+    "number": 23,
+    "teamId": "williams",
+    "countryCode": "TH"
+  },
+  {
+    "id": "ocon",
+    "name": "إستيبان أوكون",
+    "nameEn": "Esteban Ocon",
+    "number": 31,
+    "teamId": "haas",
+    "countryCode": "FR"
+  },
+  {
+    "id": "alonso",
+    "name": "فرناندو ألونسو",
+    "nameEn": "Fernando Alonso",
+    "number": 14,
+    "teamId": "aston_martin",
+    "countryCode": "ES"
+  },
+  {
+    "id": "tsunoda",
+    "name": "يوكي تسونودا",
+    "nameEn": "Yuki Tsunoda",
+    "number": 22,
+    "teamId": "rb",
+    "countryCode": "JP"
+  },
+  {
+    "id": "stroll",
+    "name": "لانس سترول",
+    "nameEn": "Lance Stroll",
+    "number": 18,
+    "teamId": "aston_martin",
+    "countryCode": "CA"
+  },
+  {
+    "id": "bottas",
+    "name": "فالتيري بوتاس",
+    "nameEn": "Valtteri Bottas",
+    "number": 77,
+    "teamId": "cadillac",
+    "countryCode": "FI"
+  },
+  {
+    "id": "perez",
+    "name": "سيرجيو بيريز",
+    "nameEn": "Sergio Pérez",
+    "number": 11,
+    "teamId": "cadillac",
+    "countryCode": "MX"
+  }
+]

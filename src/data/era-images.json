@@ -1,0 +1,112 @@
+[
+  {
+    "id": "front-engine",
+    "image": "/eras/front-engine.jpg",
+    "credit": {
+      "author": "tonylanciabeta",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:AlfaRomeo159_1951.jpg"
+    }
+  },
+  {
+    "id": "rear-engine",
+    "image": "/eras/rear-engine.jpg",
+    "credit": {
+      "author": "John Chapman (Pyrope)",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cooper_T53_Donington_pits.jpg"
+    }
+  },
+  {
+    "id": "wings-sponsors",
+    "image": "/eras/wings-sponsors.jpg",
+    "credit": {
+      "author": "Lothar Spurzem",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0 de",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:1971_Emerson_Fittipaldi,_Lotus_72_(kl).JPG"
+    }
+  },
+  {
+    "id": "ground-effect",
+    "image": "/eras/ground-effect.jpg",
+    "credit": {
+      "author": "John Chapman (User:Pyrope)",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lotus_79_venturi_tunnels.JPG"
+    }
+  },
+  {
+    "id": "turbo",
+    "image": "/eras/turbo.jpg",
+    "credit": {
+      "author": "John Chapman (Pyrope)",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:McLaren_MP4-4.jpg"
+    }
+  },
+  {
+    "id": "electronics",
+    "image": "/eras/electronics.jpg",
+    "credit": {
+      "author": "taken by Mikelo",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Williams_FW14B.jpg"
+    }
+  },
+  {
+    "id": "safety",
+    "image": "/eras/safety.jpg",
+    "credit": {
+      "author": "Morio",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ferrari_F2004_front-right_Museo_Ferrari.jpg"
+    }
+  },
+  {
+    "id": "v8-era",
+    "image": "/eras/v8-era.jpg",
+    "credit": {
+      "author": "Calreyn88",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2010_Red_Bull_RB6.jpg"
+    }
+  },
+  {
+    "id": "hybrid",
+    "image": "/eras/hybrid.jpg",
+    "credit": {
+      "author": "lmankram7",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nico_Rosberg_-_Mercedes_AMG_Petronas_W07_(29796405230).jpg"
+    }
+  },
+  {
+    "id": "modern-ground-effect",
+    "image": "/eras/modern-ground-effect.jpg",
+    "credit": {
+      "author": "先従隗始",
+      "source": "Wikimedia Commons",
+      "license": "CC0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Replica_of_Red_Bull_Racing_RB19_(24021012233).jpg"
+    }
+  },
+  {
+    "id": "era-2026",
+    "image": "/eras/era-2026.jpg",
+    "credit": {
+      "author": "Liauzh",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2026_Chinese_GP_-_Aston_Martin_-_Fernando_Alonso_-_Qualifying.jpg"
+    }
+  }
+]

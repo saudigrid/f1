@@ -1,0 +1,250 @@
+@import 'tailwindcss';
+
+/* الوضع الداكن يُفعّل عبر data-theme على <html> */
+@custom-variant dark (&:where([data-theme='dark'], [data-theme='dark'] *));
+
+/* ══════════════════════════════════════════════════════
+   الرموز التصميمية (Design Tokens)
+   الافتراضي داكن — مستمد من اللوجو: أسود / أبيض / أحمر.
+   الأحمر لون تمييز: أزرار الفعل الرئيسية والمؤشرات فقط،
+   لا خلفيات واسعة.
+   ══════════════════════════════════════════════════════ */
+:root {
+  --bg: #08080a;
+  --bg-elev: #0f0f12;
+  --surface: #16161b;
+  --surface-2: #1e1e25;
+  --border: #2a2a33;
+  --border-strong: #3a3a46;
+  --fg: #f4f4f7;
+  --fg-muted: #9a9aa8;
+  --fg-subtle: #6b6b7a;
+
+  --red: #ff2015;
+  --red-hover: #ff453b;
+  --red-dim: #b8100a;
+  --red-glow: rgb(255 32 21 / 0.28);
+
+  --grid-line: rgb(255 255 255 / 0.045);
+  --shadow-card: 0 1px 2px rgb(0 0 0 / 0.4), 0 8px 24px -12px rgb(0 0 0 / 0.6);
+
+  color-scheme: dark;
+}
+
+[data-theme='light'] {
+  --bg: #ffffff;
+  --bg-elev: #fafafb;
+  --surface: #f4f4f6;
+  --surface-2: #eaeaef;
+  --border: #dededf;
+  --border-strong: #c4c4cc;
+  --fg: #0a0a0c;
+  --fg-muted: #56565f;
+  --fg-subtle: #7d7d88;
+
+  --red: #e10600;
+  --red-hover: #c00500;
+  --red-dim: #ff2015;
+  --red-glow: rgb(225 6 0 / 0.16);
+
+  --grid-line: rgb(0 0 0 / 0.05);
+  --shadow-card: 0 1px 2px rgb(0 0 0 / 0.05), 0 8px 24px -14px rgb(0 0 0 / 0.18);
+
+  color-scheme: light;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-bg-elev: var(--bg-elev);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-line: var(--border);
+  --color-line-strong: var(--border-strong);
+  --color-fg: var(--fg);
+  --color-muted: var(--fg-muted);
+  --color-subtle: var(--fg-subtle);
+  --color-red: var(--red);
+  --color-red-hover: var(--red-hover);
+  --color-red-dim: var(--red-dim);
+
+  --font-sans: var(--font-arabic), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-display), var(--font-arabic), ui-sans-serif, sans-serif;
+
+  --radius-card: 14px;
+}
+
+/* ══════════════════════════════════════════════════════
+   الأساسيات
+   ══════════════════════════════════════════════════════ */
+* {
+  border-color: var(--border);
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-arabic), ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--red);
+  color: #fff;
+}
+
+:focus-visible {
+  outline: 2px solid var(--red);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* الأرقام لاتينية ومتساوية العرض داخل الجداول والعدادات */
+.tnum {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: 'tnum';
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
+/* ══════════════════════════════════════════════════════
+   عناصر الهوية: علم منقّط + شبكة المضمار + شريط السرعة
+   ══════════════════════════════════════════════════════ */
+.checker {
+  background-image:
+    linear-gradient(45deg, currentColor 25%, transparent 25%, transparent 75%, currentColor 75%),
+    linear-gradient(45deg, currentColor 25%, transparent 25%, transparent 75%, currentColor 75%);
+  background-size: var(--checker-size, 12px) var(--checker-size, 12px);
+  background-position: 0 0, calc(var(--checker-size, 12px) / 2) calc(var(--checker-size, 12px) / 2);
+}
+
+.grid-bg {
+  background-image:
+    linear-gradient(var(--grid-line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
+  background-size: 56px 56px;
+}
+
+/* شريط أحمر رفيع على الحافة الابتدائية — إشارة هوية متكررة */
+.speed-edge {
+  position: relative;
+}
+.speed-edge::before {
+  content: '';
+  position: absolute;
+  inset-inline-start: 0;
+  inset-block: 0;
+  width: 3px;
+  background: linear-gradient(to bottom, var(--red), transparent 85%);
+}
+
+/* ══════════════════════════════════════════════════════
+   الإعلانات — ارتفاع محجوز يمنع قفز التخطيط (CLS)
+   ══════════════════════════════════════════════════════ */
+.ad-slot {
+  height: var(--h-mobile, 0px);
+}
+@media (min-width: 1024px) {
+  .ad-slot {
+    height: var(--h-desktop, 0px);
+  }
+}
+
+/* ══════════════════════════════════════════════════════
+   النص الطويل — الصفحات التعريفية والسياسات
+   ══════════════════════════════════════════════════════ */
+.prose-ar {
+  max-width: 68ch;
+  line-height: 1.9;
+  color: var(--fg);
+}
+.prose-ar > * + * {
+  margin-block-start: 1.15rem;
+}
+.prose-ar h2 {
+  margin-block-start: 2.5rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.prose-ar ul {
+  list-style: disc;
+  padding-inline-start: 1.4rem;
+}
+.prose-ar li + li {
+  margin-block-start: 0.5rem;
+}
+.prose-ar a {
+  color: var(--red);
+  text-underline-offset: 3px;
+}
+.prose-ar a:hover {
+  text-decoration: underline;
+}
+.prose-ar strong {
+  font-weight: 600;
+}
+
+/* ══════════════════════════════════════════════════════
+   الحركة — تحترم تفضيل تقليل الحركة
+   ══════════════════════════════════════════════════════ */
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.rise {
+  animation: rise 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+
+/* ── دوران كفر الإطار — مؤشّر الانتظار ─────────────────── */
+@keyframes tyre-spin {
+  to { transform: rotate(360deg); }
+}
+
+.tyre-spin {
+  animation: tyre-spin 1.1s linear infinite;
+  transform-origin: 50% 50%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* شريط تمرير أنحف على الديسكتوب */
+@media (pointer: fine) {
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--bg);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--border-strong);
+    border-radius: 99px;
+    border: 3px solid var(--bg);
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--red-dim);
+  }
+}

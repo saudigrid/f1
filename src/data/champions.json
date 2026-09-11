@@ -1,0 +1,772 @@
+[
+  {
+    "season": 1950,
+    "driverId": "farina",
+    "driverName": "Nino Farina",
+    "driverNationality": "Italian",
+    "constructorId": null,
+    "constructorName": null,
+    "rounds": 7,
+    "complete": true
+  },
+  {
+    "season": 1951,
+    "driverId": "fangio",
+    "driverName": "Juan Fangio",
+    "driverNationality": "Argentine",
+    "constructorId": null,
+    "constructorName": null,
+    "rounds": 8,
+    "complete": true
+  },
+  {
+    "season": 1952,
+    "driverId": "ascari",
+    "driverName": "Alberto Ascari",
+    "driverNationality": "Italian",
+    "constructorId": null,
+    "constructorName": null,
+    "rounds": 8,
+    "complete": true
+  },
+  {
+    "season": 1953,
+    "driverId": "ascari",
+    "driverName": "Alberto Ascari",
+    "driverNationality": "Italian",
+    "constructorId": null,
+    "constructorName": null,
+    "rounds": 9,
+    "complete": true
+  },
+  {
+    "season": 1954,
+    "driverId": "fangio",
+    "driverName": "Juan Fangio",
+    "driverNationality": "Argentine",
+    "constructorId": null,
+    "constructorName": null,
+    "rounds": 9,
+    "complete": true
+  },
+  {
+    "season": 1955,
+    "driverId": "fangio",
+    "driverName": "Juan Fangio",
+    "driverNationality": "Argentine",
+    "constructorId": null,
+    "constructorName": null,
+    "rounds": 7,
+    "complete": true
+  },
+  {
+    "season": 1956,
+    "driverId": "fangio",
+    "driverName": "Juan Fangio",
+    "driverNationality": "Argentine",
+    "constructorId": null,
+    "constructorName": null,
+    "rounds": 8,
+    "complete": true
+  },
+  {
+    "season": 1957,
+    "driverId": "fangio",
+    "driverName": "Juan Fangio",
+    "driverNationality": "Argentine",
+    "constructorId": null,
+    "constructorName": null,
+    "rounds": 8,
+    "complete": true
+  },
+  {
+    "season": 1958,
+    "driverId": "hawthorn",
+    "driverName": "Mike Hawthorn",
+    "driverNationality": "British",
+    "constructorId": "vanwall",
+    "constructorName": "Vanwall",
+    "rounds": 11,
+    "complete": true
+  },
+  {
+    "season": 1959,
+    "driverId": "jack_brabham",
+    "driverName": "Jack Brabham",
+    "driverNationality": "Australian",
+    "constructorId": "cooper-climax",
+    "constructorName": "Cooper-Climax",
+    "rounds": 9,
+    "complete": true
+  },
+  {
+    "season": 1960,
+    "driverId": "jack_brabham",
+    "driverName": "Jack Brabham",
+    "driverNationality": "Australian",
+    "constructorId": "cooper-climax",
+    "constructorName": "Cooper-Climax",
+    "rounds": 10,
+    "complete": true
+  },
+  {
+    "season": 1961,
+    "driverId": "phil_hill",
+    "driverName": "Phil Hill",
+    "driverNationality": "American",
+    "constructorId": "ferrari",
+    "constructorName": "Ferrari",
+    "rounds": 8,
+    "complete": true
+  },
+  {
+    "season": 1962,
+    "driverId": "hill",
+    "driverName": "Graham Hill",
+    "driverNationality": "British",
+    "constructorId": "brm",
+    "constructorName": "BRM",
+    "rounds": 9,
+    "complete": true
+  },
+  {
+    "season": 1963,
+    "driverId": "clark",
+    "driverName": "Jim Clark",
+    "driverNationality": "British",
+    "constructorId": "lotus-climax",
+    "constructorName": "Lotus-Climax",
+    "rounds": 10,
+    "complete": true
+  },
+  {
+    "season": 1964,
+    "driverId": "surtees",
+    "driverName": "John Surtees",
+    "driverNationality": "British",
+    "constructorId": "ferrari",
+    "constructorName": "Ferrari",
+    "rounds": 10,
+    "complete": true
+  },
+  {
+    "season": 1965,
+    "driverId": "clark",
+    "driverName": "Jim Clark",
+    "driverNationality": "British",
+    "constructorId": "lotus-climax",
+    "constructorName": "Lotus-Climax",
+    "rounds": 10,
+    "complete": true
+  },
+  {
+    "season": 1966,
+    "driverId": "jack_brabham",
+    "driverName": "Jack Brabham",
+    "driverNationality": "Australian",
+    "constructorId": "brabham-repco",
+    "constructorName": "Brabham-Repco",
+    "rounds": 9,
+    "complete": true
+  },
+  {
+    "season": 1967,
+    "driverId": "hulme",
+    "driverName": "Denny Hulme",
+    "driverNationality": "New Zealander",
+    "constructorId": "brabham-repco",
+    "constructorName": "Brabham-Repco",
+    "rounds": 11,
+    "complete": true
+  },
+  {
+    "season": 1968,
+    "driverId": "hill",
+    "driverName": "Graham Hill",
+    "driverNationality": "British",
+    "constructorId": "lotus-ford",
+    "constructorName": "Lotus-Ford",
+    "rounds": 12,
+    "complete": true
+  },
+  {
+    "season": 1969,
+    "driverId": "stewart",
+    "driverName": "Jackie Stewart",
+    "driverNationality": "British",
+    "constructorId": "matra-ford",
+    "constructorName": "Matra-Ford",
+    "rounds": 11,
+    "complete": true
+  },
+  {
+    "season": 1970,
+    "driverId": "rindt",
+    "driverName": "Jochen Rindt",
+    "driverNationality": "Austrian",
+    "constructorId": "team_lotus",
+    "constructorName": "Team Lotus",
+    "rounds": 13,
+    "complete": true
+  },
+  {
+    "season": 1971,
+    "driverId": "stewart",
+    "driverName": "Jackie Stewart",
+    "driverNationality": "British",
+    "constructorId": "tyrrell",
+    "constructorName": "Tyrrell",
+    "rounds": 11,
+    "complete": true
+  },
+  {
+    "season": 1972,
+    "driverId": "emerson_fittipaldi",
+    "driverName": "Emerson Fittipaldi",
+    "driverNationality": "Brazilian",
+    "constructorId": "team_lotus",
+    "constructorName": "Team Lotus",
+    "rounds": 12,
+    "complete": true
+  },
+  {
+    "season": 1973,
+    "driverId": "stewart",
+    "driverName": "Jackie Stewart",
+    "driverNationality": "British",
+    "constructorId": "team_lotus",
+    "constructorName": "Team Lotus",
+    "rounds": 15,
+    "complete": true
+  },
+  {
+    "season": 1974,
+    "driverId": "emerson_fittipaldi",
+    "driverName": "Emerson Fittipaldi",
+    "driverNationality": "Brazilian",
+    "constructorId": "mclaren",
+    "constructorName": "McLaren",
+    "rounds": 15,
+    "complete": true
+  },
+  {
+    "season": 1975,
+    "driverId": "lauda",
+    "driverName": "Niki Lauda",
+    "driverNationality": "Austrian",
+    "constructorId": "ferrari",
+    "constructorName": "Ferrari",
+    "rounds": 14,
+    "complete": true
+  },
+  {
+    "season": 1976,
+    "driverId": "hunt",
+    "driverName": "James Hunt",
+    "driverNationality": "British",
+    "constructorId": "ferrari",
+    "constructorName": "Ferrari",
+    "rounds": 16,
+    "complete": true
+  },
+  {
+    "season": 1977,
+    "driverId": "lauda",
+    "driverName": "Niki Lauda",
+    "driverNationality": "Austrian",
+    "constructorId": "ferrari",
+    "constructorName": "Ferrari",
+    "rounds": 17,
+    "complete": true
+  },
+  {
+    "season": 1978,
+    "driverId": "mario_andretti",
+    "driverName": "Mario Andretti",
+    "driverNationality": "American",
+    "constructorId": "team_lotus",
+    "constructorName": "Team Lotus",
+    "rounds": 16,
+    "complete": true
+  },
+  {
+    "season": 1979,
+    "driverId": "scheckter",
+    "driverName": "Jody Scheckter",
+    "driverNationality": "South African",
+    "constructorId": "ferrari",
+    "constructorName": "Ferrari",
+    "rounds": 15,
+    "complete": true
+  },
+  {
+    "season": 1980,
+    "driverId": "jones",
+    "driverName": "Alan Jones",
+    "driverNationality": "Australian",
+    "constructorId": "williams",
+    "constructorName": "Williams",
+    "rounds": 14,
+    "complete": true
+  },
+  {
+    "season": 1981,
+    "driverId": "piquet",
+    "driverName": "Nelson Piquet",
+    "driverNationality": "Brazilian",
+    "constructorId": "williams",
+    "constructorName": "Williams",
+    "rounds": 15,
+    "complete": true
+  },
+  {
+    "season": 1982,
+    "driverId": "keke_rosberg",
+    "driverName": "Keke Rosberg",
+    "driverNationality": "Finnish",
+    "constructorId": "ferrari",
+    "constructorName": "Ferrari",
+    "rounds": 16,
+    "complete": true
+  },
+  {
+    "season": 1983,
+    "driverId": "piquet",
+    "driverName": "Nelson Piquet",
+    "driverNationality": "Brazilian",
+    "constructorId": "ferrari",
+    "constructorName": "Ferrari",
+    "rounds": 15,
+    "complete": true
+  },
+  {
+    "season": 1984,
+    "driverId": "lauda",
+    "driverName": "Niki Lauda",
+    "driverNationality": "Austrian",
+    "constructorId": "mclaren",
+    "constructorName": "McLaren",
+    "rounds": 16,
+    "complete": true
+  },
+  {
+    "season": 1985,
+    "driverId": "prost",
+    "driverName": "Alain Prost",
+    "driverNationality": "French",
+    "constructorId": "mclaren",
+    "constructorName": "McLaren",
+    "rounds": 16,
+    "complete": true
+  },
+  {
+    "season": 1986,
+    "driverId": "prost",
+    "driverName": "Alain Prost",
+    "driverNationality": "French",
+    "constructorId": "williams",
+    "constructorName": "Williams",
+    "rounds": 16,
+    "complete": true
+  },
+  {
+    "season": 1987,
+    "driverId": "piquet",
+    "driverName": "Nelson Piquet",
+    "driverNationality": "Brazilian",
+    "constructorId": "williams",
+    "constructorName": "Williams",
+    "rounds": 16,
+    "complete": true
+  },
+  {
+    "season": 1988,
+    "driverId": "senna",
+    "driverName": "Ayrton Senna",
+    "driverNationality": "Brazilian",
+    "constructorId": "mclaren",
+    "constructorName": "McLaren",
+    "rounds": 16,
+    "complete": true
+  },
+  {
+    "season": 1989,
+    "driverId": "prost",
+    "driverName": "Alain Prost",
+    "driverNationality": "French",
+    "constructorId": "mclaren",
+    "constructorName": "McLaren",
+    "rounds": 16,
+    "complete": true
+  },
+  {
+    "season": 1990,
+    "driverId": "senna",
+    "driverName": "Ayrton Senna",
+    "driverNationality": "Brazilian",
+    "constructorId": "mclaren",
+    "constructorName": "McLaren",
+    "rounds": 16,
+    "complete": true
+  },
+  {
+    "season": 1991,
+    "driverId": "senna",
+    "driverName": "Ayrton Senna",
+    "driverNationality": "Brazilian",
+    "constructorId": "mclaren",
+    "constructorName": "McLaren",
+    "rounds": 16,
+    "complete": true
+  },
+  {
+    "season": 1992,
+    "driverId": "mansell",
+    "driverName": "Nigel Mansell",
+    "driverNationality": "British",
+    "constructorId": "williams",
+    "constructorName": "Williams",
+    "rounds": 16,
+    "complete": true
+  },
+  {
+    "season": 1993,
+    "driverId": "prost",
+    "driverName": "Alain Prost",
+    "driverNationality": "French",
+    "constructorId": "williams",
+    "constructorName": "Williams",
+    "rounds": 16,
+    "complete": true
+  },
+  {
+    "season": 1994,
+    "driverId": "michael_schumacher",
+    "driverName": "Michael Schumacher",
+    "driverNationality": "German",
+    "constructorId": "williams",
+    "constructorName": "Williams",
+    "rounds": 16,
+    "complete": true
+  },
+  {
+    "season": 1995,
+    "driverId": "michael_schumacher",
+    "driverName": "Michael Schumacher",
+    "driverNationality": "German",
+    "constructorId": "benetton",
+    "constructorName": "Benetton",
+    "rounds": 17,
+    "complete": true
+  },
+  {
+    "season": 1996,
+    "driverId": "damon_hill",
+    "driverName": "Damon Hill",
+    "driverNationality": "British",
+    "constructorId": "williams",
+    "constructorName": "Williams",
+    "rounds": 16,
+    "complete": true
+  },
+  {
+    "season": 1997,
+    "driverId": "villeneuve",
+    "driverName": "Jacques Villeneuve",
+    "driverNationality": "Canadian",
+    "constructorId": "williams",
+    "constructorName": "Williams",
+    "rounds": 17,
+    "complete": true
+  },
+  {
+    "season": 1998,
+    "driverId": "hakkinen",
+    "driverName": "Mika Häkkinen",
+    "driverNationality": "Finnish",
+    "constructorId": "mclaren",
+    "constructorName": "McLaren",
+    "rounds": 16,
+    "complete": true
+  },
+  {
+    "season": 1999,
+    "driverId": "hakkinen",
+    "driverName": "Mika Häkkinen",
+    "driverNationality": "Finnish",
+    "constructorId": "ferrari",
+    "constructorName": "Ferrari",
+    "rounds": 16,
+    "complete": true
+  },
+  {
+    "season": 2000,
+    "driverId": "michael_schumacher",
+    "driverName": "Michael Schumacher",
+    "driverNationality": "German",
+    "constructorId": "ferrari",
+    "constructorName": "Ferrari",
+    "rounds": 17,
+    "complete": true
+  },
+  {
+    "season": 2001,
+    "driverId": "michael_schumacher",
+    "driverName": "Michael Schumacher",
+    "driverNationality": "German",
+    "constructorId": "ferrari",
+    "constructorName": "Ferrari",
+    "rounds": 17,
+    "complete": true
+  },
+  {
+    "season": 2002,
+    "driverId": "michael_schumacher",
+    "driverName": "Michael Schumacher",
+    "driverNationality": "German",
+    "constructorId": "ferrari",
+    "constructorName": "Ferrari",
+    "rounds": 17,
+    "complete": true
+  },
+  {
+    "season": 2003,
+    "driverId": "michael_schumacher",
+    "driverName": "Michael Schumacher",
+    "driverNationality": "German",
+    "constructorId": "ferrari",
+    "constructorName": "Ferrari",
+    "rounds": 16,
+    "complete": true
+  },
+  {
+    "season": 2004,
+    "driverId": "michael_schumacher",
+    "driverName": "Michael Schumacher",
+    "driverNationality": "German",
+    "constructorId": "ferrari",
+    "constructorName": "Ferrari",
+    "rounds": 18,
+    "complete": true
+  },
+  {
+    "season": 2005,
+    "driverId": "alonso",
+    "driverName": "Fernando Alonso",
+    "driverNationality": "Spanish",
+    "constructorId": "renault",
+    "constructorName": "Renault",
+    "rounds": 19,
+    "complete": true
+  },
+  {
+    "season": 2006,
+    "driverId": "alonso",
+    "driverName": "Fernando Alonso",
+    "driverNationality": "Spanish",
+    "constructorId": "renault",
+    "constructorName": "Renault",
+    "rounds": 18,
+    "complete": true
+  },
+  {
+    "season": 2007,
+    "driverId": "raikkonen",
+    "driverName": "Kimi Räikkönen",
+    "driverNationality": "Finnish",
+    "constructorId": "ferrari",
+    "constructorName": "Ferrari",
+    "rounds": 17,
+    "complete": true
+  },
+  {
+    "season": 2008,
+    "driverId": "hamilton",
+    "driverName": "Lewis Hamilton",
+    "driverNationality": "British",
+    "constructorId": "ferrari",
+    "constructorName": "Ferrari",
+    "rounds": 18,
+    "complete": true
+  },
+  {
+    "season": 2009,
+    "driverId": "button",
+    "driverName": "Jenson Button",
+    "driverNationality": "British",
+    "constructorId": "brawn",
+    "constructorName": "Brawn",
+    "rounds": 17,
+    "complete": true
+  },
+  {
+    "season": 2010,
+    "driverId": "vettel",
+    "driverName": "Sebastian Vettel",
+    "driverNationality": "German",
+    "constructorId": "red_bull",
+    "constructorName": "Red Bull",
+    "rounds": 19,
+    "complete": true
+  },
+  {
+    "season": 2011,
+    "driverId": "vettel",
+    "driverName": "Sebastian Vettel",
+    "driverNationality": "German",
+    "constructorId": "red_bull",
+    "constructorName": "Red Bull",
+    "rounds": 19,
+    "complete": true
+  },
+  {
+    "season": 2012,
+    "driverId": "vettel",
+    "driverName": "Sebastian Vettel",
+    "driverNationality": "German",
+    "constructorId": "red_bull",
+    "constructorName": "Red Bull",
+    "rounds": 20,
+    "complete": true
+  },
+  {
+    "season": 2013,
+    "driverId": "vettel",
+    "driverName": "Sebastian Vettel",
+    "driverNationality": "German",
+    "constructorId": "red_bull",
+    "constructorName": "Red Bull",
+    "rounds": 19,
+    "complete": true
+  },
+  {
+    "season": 2014,
+    "driverId": "hamilton",
+    "driverName": "Lewis Hamilton",
+    "driverNationality": "British",
+    "constructorId": "mercedes",
+    "constructorName": "Mercedes",
+    "rounds": 19,
+    "complete": true
+  },
+  {
+    "season": 2015,
+    "driverId": "hamilton",
+    "driverName": "Lewis Hamilton",
+    "driverNationality": "British",
+    "constructorId": "mercedes",
+    "constructorName": "Mercedes",
+    "rounds": 19,
+    "complete": true
+  },
+  {
+    "season": 2016,
+    "driverId": "rosberg",
+    "driverName": "Nico Rosberg",
+    "driverNationality": "German",
+    "constructorId": "mercedes",
+    "constructorName": "Mercedes",
+    "rounds": 21,
+    "complete": true
+  },
+  {
+    "season": 2017,
+    "driverId": "hamilton",
+    "driverName": "Lewis Hamilton",
+    "driverNationality": "British",
+    "constructorId": "mercedes",
+    "constructorName": "Mercedes",
+    "rounds": 20,
+    "complete": true
+  },
+  {
+    "season": 2018,
+    "driverId": "hamilton",
+    "driverName": "Lewis Hamilton",
+    "driverNationality": "British",
+    "constructorId": "mercedes",
+    "constructorName": "Mercedes",
+    "rounds": 21,
+    "complete": true
+  },
+  {
+    "season": 2019,
+    "driverId": "hamilton",
+    "driverName": "Lewis Hamilton",
+    "driverNationality": "British",
+    "constructorId": "mercedes",
+    "constructorName": "Mercedes",
+    "rounds": 21,
+    "complete": true
+  },
+  {
+    "season": 2020,
+    "driverId": "hamilton",
+    "driverName": "Lewis Hamilton",
+    "driverNationality": "British",
+    "constructorId": "mercedes",
+    "constructorName": "Mercedes",
+    "rounds": 17,
+    "complete": true
+  },
+  {
+    "season": 2021,
+    "driverId": "max_verstappen",
+    "driverName": "Max Verstappen",
+    "driverNationality": "Dutch",
+    "constructorId": "mercedes",
+    "constructorName": "Mercedes",
+    "rounds": 22,
+    "complete": true
+  },
+  {
+    "season": 2022,
+    "driverId": "max_verstappen",
+    "driverName": "Max Verstappen",
+    "driverNationality": "Dutch",
+    "constructorId": "red_bull",
+    "constructorName": "Red Bull",
+    "rounds": 22,
+    "complete": true
+  },
+  {
+    "season": 2023,
+    "driverId": "max_verstappen",
+    "driverName": "Max Verstappen",
+    "driverNationality": "Dutch",
+    "constructorId": "red_bull",
+    "constructorName": "Red Bull",
+    "rounds": 22,
+    "complete": true
+  },
+  {
+    "season": 2024,
+    "driverId": "max_verstappen",
+    "driverName": "Max Verstappen",
+    "driverNationality": "Dutch",
+    "constructorId": "mclaren",
+    "constructorName": "McLaren",
+    "rounds": 24,
+    "complete": true
+  },
+  {
+    "season": 2025,
+    "driverId": "norris",
+    "driverName": "Lando Norris",
+    "driverNationality": "British",
+    "constructorId": "mclaren",
+    "constructorName": "McLaren",
+    "rounds": 24,
+    "complete": true
+  },
+  {
+    "season": 2026,
+    "driverId": "antonelli",
+    "driverName": "Andrea Kimi Antonelli",
+    "driverNationality": "Italian",
+    "constructorId": "mercedes",
+    "constructorName": "Mercedes",
+    "rounds": 13,
+    "complete": false
+  }
+]

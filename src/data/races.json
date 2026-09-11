@@ -1,0 +1,457 @@
+[
+  {
+    "id": "albert_park",
+    "round": 1,
+    "name": "جائزة أستراليا الكبرى",
+    "nameEn": "Australian Grand Prix",
+    "circuit": "حلبة ألبرت بارك",
+    "country": "أستراليا",
+    "countryCode": "AU",
+    "startsAt": "2026-03-08T04:00:00.000Z",
+    "laps": 58,
+    "status": "completed",
+    "podium": [
+      {
+        "position": 1,
+        "driverId": "russell"
+      },
+      {
+        "position": 2,
+        "driverId": "antonelli"
+      },
+      {
+        "position": 3,
+        "driverId": "leclerc"
+      }
+    ]
+  },
+  {
+    "id": "shanghai",
+    "round": 2,
+    "name": "جائزة الصين الكبرى",
+    "nameEn": "Chinese Grand Prix",
+    "circuit": "حلبة شنغهاي الدولية",
+    "country": "الصين",
+    "countryCode": "CN",
+    "startsAt": "2026-03-15T07:00:00.000Z",
+    "laps": 56,
+    "status": "completed",
+    "podium": [
+      {
+        "position": 1,
+        "driverId": "antonelli"
+      },
+      {
+        "position": 2,
+        "driverId": "russell"
+      },
+      {
+        "position": 3,
+        "driverId": "hamilton"
+      }
+    ]
+  },
+  {
+    "id": "suzuka",
+    "round": 3,
+    "name": "جائزة اليابان الكبرى",
+    "nameEn": "Japanese Grand Prix",
+    "circuit": "حلبة سوزوكا",
+    "country": "اليابان",
+    "countryCode": "JP",
+    "startsAt": "2026-03-29T05:00:00.000Z",
+    "laps": 53,
+    "status": "completed",
+    "podium": [
+      {
+        "position": 1,
+        "driverId": "antonelli"
+      },
+      {
+        "position": 2,
+        "driverId": "piastri"
+      },
+      {
+        "position": 3,
+        "driverId": "leclerc"
+      }
+    ]
+  },
+  {
+    "id": "miami",
+    "round": 4,
+    "name": "جائزة ميامي الكبرى",
+    "nameEn": "Miami Grand Prix",
+    "circuit": "حلبة ميامي الدولية",
+    "country": "الولايات المتحدة",
+    "countryCode": "US",
+    "startsAt": "2026-05-03T20:00:00.000Z",
+    "laps": 57,
+    "status": "completed",
+    "podium": [
+      {
+        "position": 1,
+        "driverId": "antonelli"
+      },
+      {
+        "position": 2,
+        "driverId": "norris"
+      },
+      {
+        "position": 3,
+        "driverId": "piastri"
+      }
+    ]
+  },
+  {
+    "id": "villeneuve",
+    "round": 5,
+    "name": "جائزة كندا الكبرى",
+    "nameEn": "Canadian Grand Prix",
+    "circuit": "حلبة جيل فيلنوف",
+    "country": "كندا",
+    "countryCode": "CA",
+    "startsAt": "2026-05-24T20:00:00.000Z",
+    "laps": 68,
+    "status": "completed",
+    "podium": [
+      {
+        "position": 1,
+        "driverId": "antonelli"
+      },
+      {
+        "position": 2,
+        "driverId": "hamilton"
+      },
+      {
+        "position": 3,
+        "driverId": "max_verstappen"
+      }
+    ]
+  },
+  {
+    "id": "monaco",
+    "round": 6,
+    "name": "جائزة موناكو الكبرى",
+    "nameEn": "Monaco Grand Prix",
+    "circuit": "حلبة موناكو",
+    "country": "موناكو",
+    "countryCode": "MC",
+    "startsAt": "2026-06-07T13:00:00.000Z",
+    "laps": 78,
+    "status": "completed",
+    "podium": [
+      {
+        "position": 1,
+        "driverId": "antonelli"
+      },
+      {
+        "position": 2,
+        "driverId": "hamilton"
+      },
+      {
+        "position": 3,
+        "driverId": "gasly"
+      }
+    ]
+  },
+  {
+    "id": "catalunya",
+    "round": 7,
+    "name": "جائزة برشلونة الكبرى",
+    "nameEn": "Barcelona Grand Prix",
+    "circuit": "حلبة كتالونيا",
+    "country": "إسبانيا",
+    "countryCode": "ES",
+    "startsAt": "2026-06-14T13:00:00.000Z",
+    "laps": 66,
+    "status": "completed",
+    "podium": [
+      {
+        "position": 1,
+        "driverId": "hamilton"
+      },
+      {
+        "position": 2,
+        "driverId": "russell"
+      },
+      {
+        "position": 3,
+        "driverId": "norris"
+      }
+    ]
+  },
+  {
+    "id": "red_bull_ring",
+    "round": 8,
+    "name": "جائزة النمسا الكبرى",
+    "nameEn": "Austrian Grand Prix",
+    "circuit": "حلبة ريد بُل رينغ",
+    "country": "النمسا",
+    "countryCode": "AT",
+    "startsAt": "2026-06-28T13:00:00.000Z",
+    "laps": 71,
+    "status": "completed",
+    "podium": [
+      {
+        "position": 1,
+        "driverId": "russell"
+      },
+      {
+        "position": 2,
+        "driverId": "max_verstappen"
+      },
+      {
+        "position": 3,
+        "driverId": "antonelli"
+      }
+    ]
+  },
+  {
+    "id": "silverstone",
+    "round": 9,
+    "name": "جائزة بريطانيا الكبرى",
+    "nameEn": "British Grand Prix",
+    "circuit": "حلبة سيلفرستون",
+    "country": "بريطانيا",
+    "countryCode": "GB",
+    "startsAt": "2026-07-05T14:00:00.000Z",
+    "laps": 52,
+    "status": "completed",
+    "podium": [
+      {
+        "position": 1,
+        "driverId": "leclerc"
+      },
+      {
+        "position": 2,
+        "driverId": "russell"
+      },
+      {
+        "position": 3,
+        "driverId": "hamilton"
+      }
+    ]
+  },
+  {
+    "id": "spa",
+    "round": 10,
+    "name": "جائزة بلجيكا الكبرى",
+    "nameEn": "Belgian Grand Prix",
+    "circuit": "حلبة سبا-فرانكورشان",
+    "country": "بلجيكا",
+    "countryCode": "BE",
+    "startsAt": "2026-07-19T13:00:00.000Z",
+    "laps": 44,
+    "status": "completed",
+    "podium": [
+      {
+        "position": 1,
+        "driverId": "antonelli"
+      },
+      {
+        "position": 2,
+        "driverId": "leclerc"
+      },
+      {
+        "position": 3,
+        "driverId": "max_verstappen"
+      }
+    ]
+  },
+  {
+    "id": "hungaroring",
+    "round": 11,
+    "name": "جائزة المجر الكبرى",
+    "nameEn": "Hungarian Grand Prix",
+    "circuit": "حلبة هنغارورينغ",
+    "country": "المجر",
+    "countryCode": "HU",
+    "startsAt": "2026-07-26T13:00:00.000Z",
+    "laps": 70,
+    "status": "completed",
+    "podium": [
+      {
+        "position": 1,
+        "driverId": "norris"
+      },
+      {
+        "position": 2,
+        "driverId": "max_verstappen"
+      },
+      {
+        "position": 3,
+        "driverId": "antonelli"
+      }
+    ]
+  },
+  {
+    "id": "zandvoort",
+    "round": 12,
+    "name": "جائزة هولندا الكبرى",
+    "nameEn": "Dutch Grand Prix",
+    "circuit": "حلبة زاندفورت",
+    "country": "هولندا",
+    "countryCode": "NL",
+    "startsAt": "2026-08-23T13:00:00.000Z",
+    "laps": 72,
+    "status": "completed",
+    "podium": [
+      {
+        "position": 1,
+        "driverId": "norris"
+      },
+      {
+        "position": 2,
+        "driverId": "antonelli"
+      },
+      {
+        "position": 3,
+        "driverId": "russell"
+      }
+    ]
+  },
+  {
+    "id": "monza",
+    "round": 13,
+    "name": "جائزة إيطاليا الكبرى",
+    "nameEn": "Italian Grand Prix",
+    "circuit": "حلبة مونزا",
+    "country": "إيطاليا",
+    "countryCode": "IT",
+    "startsAt": "2026-09-06T13:00:00.000Z",
+    "laps": 0,
+    "status": "upcoming",
+    "podium": null
+  },
+  {
+    "id": "madring",
+    "round": 14,
+    "name": "جائزة إسبانيا الكبرى",
+    "nameEn": "Spanish Grand Prix",
+    "circuit": "حلبة مدريد",
+    "country": "إسبانيا",
+    "countryCode": "ES",
+    "startsAt": "2026-09-13T13:00:00.000Z",
+    "laps": 0,
+    "status": "upcoming",
+    "podium": null
+  },
+  {
+    "id": "baku",
+    "round": 15,
+    "name": "جائزة أذربيجان الكبرى",
+    "nameEn": "Azerbaijan Grand Prix",
+    "circuit": "حلبة مدينة باكو",
+    "country": "أذربيجان",
+    "countryCode": "AZ",
+    "startsAt": "2026-09-26T11:00:00.000Z",
+    "laps": 0,
+    "status": "upcoming",
+    "podium": null
+  },
+  {
+    "id": "sepang",
+    "round": 16,
+    "name": "جائزة البحرين الكبرى في ماليزيا",
+    "nameEn": "Bahrain Grand Prix in Malaysia",
+    "circuit": "حلبة سيبانغ الدولية",
+    "country": "ماليزيا",
+    "countryCode": "MY",
+    "startsAt": "2026-10-04T07:00:00.000Z",
+    "laps": 0,
+    "status": "upcoming",
+    "podium": null
+  },
+  {
+    "id": "marina_bay",
+    "round": 17,
+    "name": "جائزة سنغافورة الكبرى",
+    "nameEn": "Singapore Grand Prix",
+    "circuit": "حلبة مارينا باي",
+    "country": "سنغافورة",
+    "countryCode": "SG",
+    "startsAt": "2026-10-11T12:00:00.000Z",
+    "laps": 0,
+    "status": "upcoming",
+    "podium": null
+  },
+  {
+    "id": "americas",
+    "round": 18,
+    "name": "جائزة الولايات المتحدة الكبرى",
+    "nameEn": "United States Grand Prix",
+    "circuit": "حلبة الأمريكتين",
+    "country": "الولايات المتحدة",
+    "countryCode": "US",
+    "startsAt": "2026-10-25T20:00:00.000Z",
+    "laps": 0,
+    "status": "upcoming",
+    "podium": null
+  },
+  {
+    "id": "rodriguez",
+    "round": 19,
+    "name": "جائزة مكسيكو سيتي الكبرى",
+    "nameEn": "Mexico City Grand Prix",
+    "circuit": "حلبة الأخوين رودريغيز",
+    "country": "المكسيك",
+    "countryCode": "MX",
+    "startsAt": "2026-11-01T20:00:00.000Z",
+    "laps": 0,
+    "status": "upcoming",
+    "podium": null
+  },
+  {
+    "id": "interlagos",
+    "round": 20,
+    "name": "جائزة البرازيل الكبرى",
+    "nameEn": "Brazilian Grand Prix",
+    "circuit": "حلبة إنترلاغوس",
+    "country": "البرازيل",
+    "countryCode": "BR",
+    "startsAt": "2026-11-08T17:00:00.000Z",
+    "laps": 0,
+    "status": "upcoming",
+    "podium": null
+  },
+  {
+    "id": "vegas",
+    "round": 21,
+    "name": "جائزة لاس فيغاس الكبرى",
+    "nameEn": "Las Vegas Grand Prix",
+    "circuit": "حلبة لاس فيغاس",
+    "country": "الولايات المتحدة",
+    "countryCode": "US",
+    "startsAt": "2026-11-22T04:00:00.000Z",
+    "laps": 0,
+    "status": "upcoming",
+    "podium": null
+  },
+  {
+    "id": "losail",
+    "round": 22,
+    "name": "جائزة قطر الكبرى",
+    "nameEn": "Qatar Grand Prix",
+    "circuit": "حلبة لوسيل الدولية",
+    "country": "قطر",
+    "countryCode": "QA",
+    "startsAt": "2026-11-29T16:00:00.000Z",
+    "laps": 0,
+    "status": "upcoming",
+    "podium": null
+  },
+  {
+    "id": "yas_marina",
+    "round": 23,
+    "name": "جائزة أبوظبي الكبرى",
+    "nameEn": "Abu Dhabi Grand Prix",
+    "circuit": "حلبة مرسى ياس",
+    "country": "الإمارات",
+    "countryCode": "AE",
+    "startsAt": "2026-12-06T13:00:00.000Z",
+    "laps": 0,
+    "status": "upcoming",
+    "podium": null
+  }
+]

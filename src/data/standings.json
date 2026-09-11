@@ -1,0 +1,246 @@
+{
+  "season": 2026,
+  "updatedAt": "2026-09-05T21:42:30.978Z",
+  "drivers": [
+    {
+      "position": 1,
+      "entityId": "antonelli",
+      "points": 242,
+      "wins": 6,
+      "gapToLeader": 0
+    },
+    {
+      "position": 2,
+      "entityId": "russell",
+      "points": 183,
+      "wins": 2,
+      "gapToLeader": 59
+    },
+    {
+      "position": 3,
+      "entityId": "hamilton",
+      "points": 183,
+      "wins": 1,
+      "gapToLeader": 59
+    },
+    {
+      "position": 4,
+      "entityId": "norris",
+      "points": 159,
+      "wins": 2,
+      "gapToLeader": 83
+    },
+    {
+      "position": 5,
+      "entityId": "leclerc",
+      "points": 155,
+      "wins": 1,
+      "gapToLeader": 87
+    },
+    {
+      "position": 6,
+      "entityId": "max_verstappen",
+      "points": 112,
+      "wins": 0,
+      "gapToLeader": 130
+    },
+    {
+      "position": 7,
+      "entityId": "piastri",
+      "points": 104,
+      "wins": 0,
+      "gapToLeader": 138
+    },
+    {
+      "position": 8,
+      "entityId": "hadjar",
+      "points": 68,
+      "wins": 0,
+      "gapToLeader": 174
+    },
+    {
+      "position": 9,
+      "entityId": "lawson",
+      "points": 49,
+      "wins": 0,
+      "gapToLeader": 193
+    },
+    {
+      "position": 10,
+      "entityId": "gasly",
+      "points": 44,
+      "wins": 0,
+      "gapToLeader": 198
+    },
+    {
+      "position": 11,
+      "entityId": "arvid_lindblad",
+      "points": 23,
+      "wins": 0,
+      "gapToLeader": 219
+    },
+    {
+      "position": 12,
+      "entityId": "colapinto",
+      "points": 19,
+      "wins": 0,
+      "gapToLeader": 223
+    },
+    {
+      "position": 13,
+      "entityId": "bearman",
+      "points": 18,
+      "wins": 0,
+      "gapToLeader": 224
+    },
+    {
+      "position": 14,
+      "entityId": "bortoleto",
+      "points": 10,
+      "wins": 0,
+      "gapToLeader": 232
+    },
+    {
+      "position": 15,
+      "entityId": "hulkenberg",
+      "points": 6,
+      "wins": 0,
+      "gapToLeader": 236
+    },
+    {
+      "position": 16,
+      "entityId": "sainz",
+      "points": 6,
+      "wins": 0,
+      "gapToLeader": 236
+    },
+    {
+      "position": 17,
+      "entityId": "albon",
+      "points": 5,
+      "wins": 0,
+      "gapToLeader": 237
+    },
+    {
+      "position": 18,
+      "entityId": "ocon",
+      "points": 3,
+      "wins": 0,
+      "gapToLeader": 239
+    },
+    {
+      "position": 19,
+      "entityId": "alonso",
+      "points": 3,
+      "wins": 0,
+      "gapToLeader": 239
+    },
+    {
+      "position": 20,
+      "entityId": "tsunoda",
+      "points": 0,
+      "wins": 0,
+      "gapToLeader": 242
+    },
+    {
+      "position": 21,
+      "entityId": "stroll",
+      "points": 0,
+      "wins": 0,
+      "gapToLeader": 242
+    },
+    {
+      "position": 22,
+      "entityId": "bottas",
+      "points": 0,
+      "wins": 0,
+      "gapToLeader": 242
+    },
+    {
+      "position": 23,
+      "entityId": "perez",
+      "points": 0,
+      "wins": 0,
+      "gapToLeader": 242
+    }
+  ],
+  "constructors": [
+    {
+      "position": 1,
+      "entityId": "mercedes",
+      "points": 425,
+      "wins": 8,
+      "gapToLeader": 0
+    },
+    {
+      "position": 2,
+      "entityId": "ferrari",
+      "points": 338,
+      "wins": 2,
+      "gapToLeader": 87
+    },
+    {
+      "position": 3,
+      "entityId": "mclaren",
+      "points": 263,
+      "wins": 2,
+      "gapToLeader": 162
+    },
+    {
+      "position": 4,
+      "entityId": "red_bull",
+      "points": 186,
+      "wins": 0,
+      "gapToLeader": 239
+    },
+    {
+      "position": 5,
+      "entityId": "rb",
+      "points": 66,
+      "wins": 0,
+      "gapToLeader": 359
+    },
+    {
+      "position": 6,
+      "entityId": "alpine",
+      "points": 63,
+      "wins": 0,
+      "gapToLeader": 362
+    },
+    {
+      "position": 7,
+      "entityId": "haas",
+      "points": 21,
+      "wins": 0,
+      "gapToLeader": 404
+    },
+    {
+      "position": 8,
+      "entityId": "audi",
+      "points": 16,
+      "wins": 0,
+      "gapToLeader": 409
+    },
+    {
+      "position": 9,
+      "entityId": "williams",
+      "points": 11,
+      "wins": 0,
+      "gapToLeader": 414
+    },
+    {
+      "position": 10,
+      "entityId": "aston_martin",
+      "points": 3,
+      "wins": 0,
+      "gapToLeader": 422
+    },
+    {
+      "position": 11,
+      "entityId": "cadillac",
+      "points": 0,
+      "wins": 0,
+      "gapToLeader": 425
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+[
+  {
+    "id": "mercedes",
+    "name": "مرسيدس",
+    "nameEn": "Mercedes",
+    "color": "#27F4D2",
+    "base": "براكلي، بريطانيا",
+    "powerUnit": "Mercedes"
+  },
+  {
+    "id": "ferrari",
+    "name": "فيراري",
+    "nameEn": "Ferrari",
+    "color": "#E8002D",
+    "base": "مارانيلو، إيطاليا",
+    "powerUnit": "Ferrari"
+  },
+  {
+    "id": "mclaren",
+    "name": "مكلارين",
+    "nameEn": "McLaren",
+    "color": "#FF8000",
+    "base": "ووكينغ، بريطانيا",
+    "powerUnit": "Mercedes"
+  },
+  {
+    "id": "red_bull",
+    "name": "ريد بُل",
+    "nameEn": "Red Bull",
+    "color": "#3671C6",
+    "base": "ميلتون كينز، بريطانيا",
+    "powerUnit": "Red Bull Ford"
+  },
+  {
+    "id": "rb",
+    "name": "ريسينغ بُلز",
+    "nameEn": "RB F1 Team",
+    "color": "#6692FF",
+    "base": "فاينزا، إيطاليا",
+    "powerUnit": "Red Bull Ford"
+  },
+  {
+    "id": "alpine",
+    "name": "ألبين",
+    "nameEn": "Alpine F1 Team",
+    "color": "#00A1E8",
+    "base": "إنستون، بريطانيا",
+    "powerUnit": "Mercedes"
+  },
+  {
+    "id": "haas",
+    "name": "هاس",
+    "nameEn": "Haas F1 Team",
+    "color": "#B6BABD",
+    "base": "كانابولِس، الولايات المتحدة",
+    "powerUnit": "Ferrari"
+  },
+  {
+    "id": "audi",
+    "name": "أودي",
+    "nameEn": "Audi",
+    "color": "#00786F",
+    "base": "هينفيل، سويسرا",
+    "powerUnit": "Audi"
+  },
+  {
+    "id": "williams",
+    "name": "ويليامز",
+    "nameEn": "Williams",
+    "color": "#1868DB",
+    "base": "غروف، بريطانيا",
+    "powerUnit": "Mercedes"
+  },
+  {
+    "id": "aston_martin",
+    "name": "أستون مارتن",
+    "nameEn": "Aston Martin",
+    "color": "#229971",
+    "base": "سيلفرستون، بريطانيا",
+    "powerUnit": "Honda"
+  },
+  {
+    "id": "cadillac",
+    "name": "كاديلاك",
+    "nameEn": "Cadillac F1 Team",
+    "color": "#C7A76C",
+    "base": "فيشرز، الولايات المتحدة",
+    "powerUnit": "Ferrari"
+  }
+]
