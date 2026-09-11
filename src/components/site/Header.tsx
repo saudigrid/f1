@@ -8,6 +8,7 @@ import { t } from '@/lib/i18n';
 import { NAV_LINKS } from '@/lib/nav';
 
 import { Logo } from './Logo';
+import { SiteSearch } from './SiteSearch';
 import { ThemeToggle } from './ThemeToggle';
 
 export function Header() {
@@ -65,6 +66,7 @@ export function Header() {
         </nav>
 
         <div className="ms-auto flex items-center gap-2 lg:ms-0">
+          <SiteSearch />
           <ThemeToggle />
           <button
             type="button"

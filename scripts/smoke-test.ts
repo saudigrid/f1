@@ -67,6 +67,12 @@ const CHECKS: Check[] = [
     expect: ['ما وراء النتيجة', 'أداء السائقين في كل جلسة', 'استراتيجية الإطارات', 'PIT STOP SUMMARY'],
   },
   { path: '/brand/dhl.svg', name: 'شعار DHL', contentType: 'image/svg' },
+  {
+    path: '/search-index.json',
+    name: 'فهرس البحث',
+    contentType: 'application/json',
+    expect: ['سينا', '"k":"driver"'],
+  },
   { path: '/api/telemetry?session=0&driver=0&from=x', name: 'تيليمتري بوسائط خاطئة', mustNotSucceed: true },
   { path: '/eras', name: 'تاريخ الرياضة', expect: ['تاريخ الفورمولا 1', 'التوربو'] },
 

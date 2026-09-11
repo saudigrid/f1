@@ -33,7 +33,9 @@
     "sync:history": "tsx --conditions=react-server --env-file-if-exists=.env scripts/sync-team-history.ts",
     "sync:logos": "tsx --conditions=react-server --env-file-if-exists=.env scripts/sync-team-logos.ts",
     "logos:sync": "tsx --conditions=react-server --env-file-if-exists=.env scripts/sync-team-logo-files.ts",
-    "fix:assets": "tsx --conditions=react-server --env-file-if-exists=.env scripts/fix-assets.ts"
+    "fix:assets": "tsx --conditions=react-server --env-file-if-exists=.env scripts/fix-assets.ts",
+    "search:index": "tsx --conditions=react-server --env-file-if-exists=.env scripts/build-search-index.ts",
+    "prebuild": "npm run search:index"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.124.0",

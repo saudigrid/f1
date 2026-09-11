@@ -99,7 +99,8 @@ export default function ErasPage() {
           const constructors = constructorsOf(era);
 
           return (
-            <li key={era.id} className="relative">
+            // ⚠️ المعرّف هنا — فهرس البحث يقود إلى `/eras#<id>` لكل حقبة
+            <li key={era.id} id={era.id} className="relative scroll-mt-24">
               {/* ── صورة الحقبة ───────────────────────── */}
               {eraImage?.image && (
                 <figure className="mb-6 overflow-hidden rounded-[var(--radius-card)] border border-line bg-surface-2">
